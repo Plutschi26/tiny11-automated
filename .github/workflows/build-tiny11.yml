@@ -23,7 +23,7 @@ on:
       image_index:
         description: 'Windows image index (1=Home, 4=Education, 6=Pro, 7=Pro N)'
         required: true
-        default: '1'
+        default: '6'
         type: choice
         options:
           - '1'
@@ -33,7 +33,7 @@ on:
       language:
         description: 'Language (e.g., English, Spanish, French)'
         required: false
-        default: 'English'
+        default: 'German'
       skip_cleanup:
         description: 'Skip cleanup (for debugging)'
         required: false
